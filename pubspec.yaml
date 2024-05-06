@@ -1,0 +1,63 @@
+name: nothing_dialer
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: "^3.3.0"
+
+dependencies:
+  auto_route: ^8.1.3
+  auto_route_generator: ^8.0.0
+  bloc: ^8.1.3
+  dio: ^5.4.3+1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  flutter_gen_runner: ^5.4.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_native_splash: ^2.4.0
+  flutter_screenutil: ^5.9.0
+  get_it: ^7.7.0
+  injectable: ^2.4.1
+  injectable_generator: ^2.6.1
+  intl: ^0.18.1
+  permission_handler: ^11.3.1
+  phone_call: ^0.0.1
+
+dev_dependencies:
+  bloc_test: ^9.1.6
+  build_runner: ^2.4.9
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.3
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/json/
+
+  fonts:
+    - family: Nothing
+      fonts:
+        - asset: assets/fonts/nothing.ttf
+
+flutter_gen:
+  output: lib/gen/
+  line_length: 50
+  integrations:
+    flutter_svg: true
+    flare_flutter: true
+  assets:
+    enabled: true
+    outputs:
+      class_name: MyAssets
+      package_parameter_enabled: false
+      style: dot-delimiter
