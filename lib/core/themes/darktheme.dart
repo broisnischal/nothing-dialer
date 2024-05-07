@@ -12,12 +12,14 @@ ThemeData darkTheme = ThemeData.dark(
     titleTextStyle: TextStyle(
       color: ColorConst.whiteColor,
     ),
+    surfaceTintColor: Colors.transparent,
     systemOverlayStyle: SystemUiOverlayStyle(
       statusBarColor: Colors.transparent,
       statusBarIconBrightness: Brightness.light,
-      statusBarBrightness: Brightness.dark,
-      systemNavigationBarColor: Colors.black,
+      statusBarBrightness: Brightness.light,
+      systemNavigationBarColor: Colors.transparent,
       systemNavigationBarIconBrightness: Brightness.light,
+      systemStatusBarContrastEnforced: true,
     ),
   ),
 );

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nothing_dialer/core/themes/darktheme.dart';
 import 'package:nothing_dialer/core/themes/lighttheme.dart';
-import 'package:nothing_dialer/gen/assets.gen.dart';
 import 'package:nothing_dialer/l10n/l10n.dart';
 import 'package:nothing_dialer/router/router.dart';
 
