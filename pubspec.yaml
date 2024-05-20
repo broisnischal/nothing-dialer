@@ -28,7 +28,7 @@ dependencies:
   get_it: ^7.7.0
   injectable: ^2.4.1
   injectable_generator: ^2.6.1
-  intl: ^0.18.1
+  intl: ^0.19.0
   permission_handler: ^11.3.1
   phone_call: ^0.0.1
   rename: ^3.0.2
